@@ -15,7 +15,7 @@ const UsersContainer = ({ users }) => {
             bg-gray-900 p-3 flex-col items-center"
               >
                 <img
-                  src={user?.avatar_url}
+                  src={user?.avatar_url} alt=''
                   className="w-24 mb-4 border-4 
                 border-teal-400 rounded-full"
                 />

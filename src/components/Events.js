@@ -8,7 +8,7 @@ const Events = ({events}) => {
     <>
     {events?.map((ev, i)=>(
         <div key={i} className='flex gap-x-4 items-center'>
-            <img src={ev.actor?.avatar_url} className="w-16 rounded-full" />
+            <img src={ev.actor?.avatar_url} alt='' className="w-16 rounded-full" />
             <h1 className='break-words'>
                 {ev?.actor?.login} {ev?.type}
                 <br/>
